@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+.header1 {
+    color: limegreen;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.header2 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.container {
+    width: 1250px;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.body {
+    background-color: lightgray;
+}
+
+.main-div {
+    background-color: white;
+    padding: 3px;
+    margin: 20px auto 20px auto;
+    width: 70%;
+    float: left;
+}
+h1{
+    font-weight: bold;
+    margin: 20px 0px 10px 4px;
+}
+.main-blog {
+    font-family: arial;
+    padding: 6px;
+}
+
+.blog-post {
+    width: 75%;
+    margin: 30px auto 20px auto;
+}
+
+.link {
+    color: red;
+    
+}
+.link:hover{
+    color: green;
+    
+}
+
+.another-div {
+    width: 25%;
+    background-color: white;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+
+.another-blog {
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    width: 95%;
+}
+
+.head2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+.author-div {
+    width: 70%;
+    background-color: white;
+    padding-top: 8px;
+    height: 115px;
+    
+   
+   
+}
+
+.another-div2 {
+    width: 25%;
+    background-color: white;
+    float: left;
+    margin: 20px auto 10px 30px;
+}
+
+.another-blog2 {
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    width: 95%;
+}
+
+.author-div img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    
+}
+.author-text{
+    font-size: 22px;
+    float: left;
+    margin-top: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+        
+}
+.contact {
+    float: right;
+    margin-right: 25px;
+    margin-top: 3px;
+}
+
+.head3 {
+    font-size: 28px;
+    margin-bottom: 7px;
+}
+
+.author-text1 {
+    font-size: 15px;
+    float: left;
+    margin-top: 25px;
+    margin-left: -126px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.list {
+    margin-left: 55px;
+}
+
+
+.table th{
+    background-color: #9bb1ce;
+    border-collapse: collapse;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+}
+th,td{
+    padding: 10px;
+}
+.break{
+    border-bottom: 1px solid #dddddd;
+}
